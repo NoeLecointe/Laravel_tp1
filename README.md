@@ -1,1 +1,1 @@
-<h2>TP Prise en main de Laravel </h2>
+<h2>TP Prise en main de Laravel</h2>
