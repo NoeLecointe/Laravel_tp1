@@ -28,5 +28,5 @@ jobs:
         with: 
           file: ./Dockerfile
           push: false
-          tags: 'ImageNoe'
+          tags: 'tag'
           labels: 'image' 
