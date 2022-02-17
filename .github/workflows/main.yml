@@ -28,5 +28,5 @@ jobs:
         with: 
           file: ./Dockerfile
           push: false
-          tags: "tag de l'image"
-          labels: "catégorie de l'image"  
+          tags: 'ImageNoé'
+          labels: 'image' 
