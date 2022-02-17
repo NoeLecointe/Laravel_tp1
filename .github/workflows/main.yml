@@ -22,3 +22,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo 'workflow lancé'
+        
+      - name: tâche
+        uses: docker/build-push-action@v2
+        with: 
+          file: ./Dockerfile
+          push: false
+          tags: "tag de l'image"
+          labels: "catégorie de l'image"  
